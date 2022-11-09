@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+ul {
+  border: 1px solid white;
+  width: 300px;
+}
+
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.containerListProducts {
+  border: 5px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
