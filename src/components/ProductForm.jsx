@@ -88,6 +88,7 @@ const ProductForm = ({ addProduct, productSelected, updateProduct }) => {
           />
         </div>
         <button>Add</button>
+        <button type="button">Clean</button>
       </form>
     </div>
   );

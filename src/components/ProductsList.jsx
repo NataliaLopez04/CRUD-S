@@ -15,7 +15,7 @@ const ProductsList = ({ productsList, deleteProduct, selectProduct }) => {
           <div>
             <b>Price:</b> {product.price}
           </div>
-          <div>Is Avalaible: {product.isAvalaible?.toString()} </div>
+          <div>Is Avalaible: {product.isAvailable?.toString()} </div>
           <button onClick={() => deleteProduct(product.id)}>Delete</button>
           <button onClick={() => selectProduct(product)}>Select</button>
         </li>

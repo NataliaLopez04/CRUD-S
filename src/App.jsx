@@ -12,28 +12,28 @@ function App() {
       name: "Computer",
       category: "technology",
       price: 800,
-      isAvalaible: true,
+      isAvailable: true,
     },
     {
       id: 2,
       name: "Play Station",
       category: "Videgames",
       price: 300,
-      isAvalaible: false,
+      isAvailable: false,
     },
     {
       id: 3,
       name: "Heartpods",
       category: "Multimedia",
       price: 110,
-      isAvalaible: false,
+      isAvailable: false,
     },
     {
       id: 4,
       name: "Heartpods",
       category: "Multimedia",
       price: 110,
-      isAvalaible: false,
+      isAvailable: false,
     },
   ];
 
@@ -71,6 +71,7 @@ function App() {
   return (
     <div className="App">
       <div className="containerListProducts">
+        <h1>Add Product</h1>
         <ProductForm
           addProduct={addProduct}
           selectProduct={selectProduct}
